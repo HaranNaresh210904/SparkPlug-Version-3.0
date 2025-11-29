@@ -1,28 +1,53 @@
 body {
-	padding: 2rem;
-	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+    padding: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+    background-color: #0c0e57; /* Secondary color for background */
+    color: #ffffff; /* White for content */
 }
 
 h1 {
-	font-size: 16px;
-	margin-top: 0;
+    font-size: 16px;
+    margin-top: 0;
+    color: #a8ff1e; /* Primary color for headings */
 }
 
 p {
-	color: rgb(107, 114, 128);
-	font-size: 15px;
-	margin-bottom: 10px;
-	margin-top: 5px;
+    color: #ffffff; /* White for content */
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 .card {
-	max-width: 620px;
-	margin: 0 auto;
-	padding: 16px;
-	border: 1px solid lightgray;
-	border-radius: 16px;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px solid #a8ff1e; /* Primary color for borders */
+    border-radius: 16px;
+    background-color: #0c0e57; /* Secondary color for card background */
 }
 
 .card p:last-child {
-	margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Additional utility classes for the new color scheme */
+.accent-color {
+    color: #a8ff1e;
+}
+
+.accent-bg {
+    background-color: #a8ff1e;
+}
+
+.secondary-bg {
+    background-color: #0c0e57;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.primary-border {
+    border-color: #a8ff1e;
 }
